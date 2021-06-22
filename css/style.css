@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url(https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Falqudscollege-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!2spDmTvk_Ey3l_QSLPv1vkLnsRzUCaRDqWTh1FX8GP5tUMRzFWzmQ47zimRsNl9q%2Fitems%2F015YABFJXHGVDY2GB3KVDZEBRU55PJGNVY%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYWxxdWRzY29sbGVnZS1teS5zaGFyZXBvaW50LmNvbUBhMTYyYzUzMi03YTBjLTQ2NDUtOTZmZC0yMGQwMTljZjRlNWEiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjI0MzUyNDAwIiwiZXhwIjoiMTYyNDM3NDAwMCIsImVuZHBvaW50dXJsIjoiVzlMTWdBNGxHaTJ6MjJ2M3VoNEcxNVJDMmlpLzZrMllKd1ZyWVJwSklSUT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9UazBNMk5oWkdFdFpUUXpZaTAwWTJaakxXSTNPVGN0WmpReE1qSmpabUptTldKbCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHx1cm4lM2FzcG8lM2Fhbm9uI2NjZjJlYTU1MjBkYjJjYmI3ZDBlYTcwYTNjOGI3ZGE5ZGU5ZjhlOWJhZjQ1NDIwZDNhYWM2MDVhNGUyZTg2YzgiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHx1cm4lM2FzcG8lM2Fhbm9uI2NjZjJlYTU1MjBkYjJjYmI3ZDBlYTcwYTNjOGI3ZGE5ZGU5ZjhlOWJhZjQ1NDIwZDNhYWM2MDVhNGUyZTg2YzgiLCJzaGFyaW5naWQiOiJlcDJWSGhSWC9VU2RCUkJJQ0dnbkZ3IiwidHQiOiIwIiwidXNlUGVyc2lzdGVudENvb2tpZSI6IjIifQ.U2YvenQxTFY3cVR5UVR2OHVDMFQzU2JFcFkrTDM1WFI3ZUlvUnhuK1oxdz0&encodeFailures=1&width=626&height=417&srcWidth=626&srcHeight=417);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #1F1F1F;
+
+}
+h1{
+    text-align: center;
+    color: #f5f5f5;
+    line-height: 1.5;
+    font-size: 60px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#formdiv{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(114, 104, 211, 0.8);
+    margin-left: 150px;
+    margin-top: 100px;
+}
+#tablediv{
+    float: right;
+    width: 700px;
+    height: 300px;
+    background-color: rgba(114, 104, 211, 0.8);
+    margin-right: 150px;
+    margin-top: 100px;
+}
+#form{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+label{
+    color:#f5f5f5 ;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+label[for=course]{
+    margin-left: 50px;
+
+}
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+select{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+input[type=submit]{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1F1F1F;
+    color:#f5f5f5 ;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+tr,th,td{
+    border:#f5f5f5 2px solid ;
+    text-align: center;
+    font-size: 20px;
+    width: 150px;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+
+}
+th{
+    background-color: #1F1F1F;
+    color: #f5f5f5;
+}
+td{
+    background-color: #3D3D3D;
+    color:#f5f5f5;
+}
